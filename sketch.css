@@ -63,4 +63,81 @@ header ul li a{
 .main .side{
     float: right;
     width: 30%;
+    padding: 20px;
+}
+aside{
+    background-color: grey;
+    padding: 10px;
+    border-radius: 5px;
+}
+.side1{
+    color: white;
+    box-shadow: 1px 1px 3px grey;
+    padding: 20px;
+}
+.side1 ul{
+    list-style: none;
+}
+.side1 ul li a{
+    text-decoration: none;
+    color: #B71C1C;
+    font-weight: bold;
+}
+.side2{
+    margin-top: 20px;
+    box-shadow: 1px 1px 3px grey;
+    padding: 20px;
+}
+.side2 label{
+    display: block;
+    margin-top: 10px;
+}
+.side2 input{
+    height: 35px;
+    width: 200px;
+    padding-left: 9px;
+}
+button {
+    display: block;
+    border: none;
+    padding: 1rem 2rem;
+    margin: 0;
+    text-decoration: none;
+    background: #0069ed;
+    color: #ffffff;
+    font-family: sans-serif;
+    font-size: 1rem;
+    cursor: pointer;
+    text-align: center;
+    transition: background 250ms ease-in-out, 
+                transform 150ms ease;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+
+button:hover,
+button:focus {
+    background: #0053ba;
+}
+
+button:focus {
+    outline: 1px solid #fff;
+    outline-offset: -4px;
+}
+
+button:active {
+    transform: scale(0.99);
+}
+/*footer coding*/
+
+footer{
+    text-align: center;
+}
+footer a{
+    text-decoration: none;
+    color: grey;
+}
+footer #author{
+    font-size:10px;
+    color: grey;
 }
